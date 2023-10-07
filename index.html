@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Alpro Week 6</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+        <div class="box">
+            <h1>Data Viewer Sederhana</h1>
+            <!-- Gunakan container untuk input dan tombol -->
+            <div class="input-container">
+                <input type="text" id="urlInput" placeholder="https://www.example.com">
+                <button onclick="getData()">Submit</button>
+            </div>
+        </div>
+        <!-- Tambahkan elemen <span> untuk menampilkan pesan kesalahan -->
+        <span class="error-message" id="urlInputError"></span>
+
+        <div class="table-container">
+            <table>
+                <!-- Tabel akan diisi melalui JavaScript -->
+            </table>
+        </div>
+    <script src="scripts.js"></script>
+</body>
+</html>

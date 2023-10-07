@@ -1,0 +1,84 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+}
+
+h1 {
+    text-align: center;
+}
+
+.box {
+    width: 50%;
+    padding: 20px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin: 10px auto;
+    background-color: #eaeaeaab;
+    border-radius: 15px;
+}
+
+.input-container {
+    display: flex;
+    justify-content: center; /* Memusatkan horizontal */
+    align-items: center; /* Memusatkan vertikal */
+}
+
+#urlInput {
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 500px;
+}
+
+/* Tambahkan gaya untuk pesan kesalahan */
+.error-message {
+    font-size: 14px;
+}
+
+button {
+    background-color: #007BFF;
+    color: white;
+    padding: 8px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-left: 5px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Tabel */
+.table-container {
+    overflow-x: auto;
+    margin-top: 10px;
+}
+
+table {
+    font-size: 12px;
+    padding: 8px;
+    text-align: center;
+    border: 1px solid black;
+    width: 100%;
+    font-family: 'Montserrat', sans-serif;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: rgb(41, 145, 236);
+    color: white;
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
